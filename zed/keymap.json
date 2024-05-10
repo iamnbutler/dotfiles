@@ -1,0 +1,15 @@
+[
+    {
+      "bindings": {
+        // I duplcate far more often than using "Select next occurrence"
+        "cmd-d": "editor::DuplicateLineDown",
+        // I'm rarely on a keyboard that can `f8` without two hands
+        // this feels more comfortable
+        "cmd-e": "editor::GoToDiagnostic",
+        // -- One hand mode bindings --
+        "alt-enter": "assistant::InlineAssist",
+        "cmd-opt-p": "command_palette::Toggle"
+      }
+    }
+  ]
+  
