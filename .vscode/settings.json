@@ -1,5 +1,101 @@
 {
-    "files.associations": {
-        "*.json": "jsonc"
+  "editor.minimap.enabled": false,
+  "diffEditor.renderSideBySide": false,
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "workbench.activityBar.location": "bottom",
+  "workbench.editor.showIcons": false,
+  "git.openRepositoryInParentFolders": "never",
+  "workbench.colorTheme": "Gruvbox Dark Medium",
+  "debug.onTaskErrors": "debugAnyway",
+  "workbench.startupEditor": "none",
+  "files.associations": {
+    "*.json": "jsonc"
+  },
+  "editor.fontFamily": "Berkeley Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.formatOnSave": true,
+  "custom-ui-style.font.sansSerif": "Berkeley Mono, -apple-system",
+  "custom-ui-style.electron": {
+    "titleBarStyle": "hidden",
+    "trafficLightPosition": {
+      "x": -1000,
+      "y": 0
     }
+  },
+  "window.titleBarStyle": "native",
+  "window.customTitleBarVisibility": "never",
+  "custom-ui-style.stylesheet": {
+    // ".monaco-workbench .part.editor .tabs": {
+    //   "height": "25px !important",
+    //   "line-height": "25px !important"
+    // },
+    // ".monaco-workbench .part.editor .tabs-container": {
+    //   "height": "25px !important",
+    //   "line-height": "25px !important"
+    // },
+    // ".monaco-workbench .part.editor .tabs-container > .tab": {
+    //   "padding": "0",
+    //   "height": "25px !important",
+    //   "line-height": "25px !important",
+    //   "items-align": "center",
+    //   "font-weight": "300",
+    //   "font-size": "10px !important"
+    // },
+    ".monaco-workbench .part.editor .tabs-container > .tab.active": {
+      "background-color": "#292929 !important",
+      "background-image": "linear-gradient(to bottom, #292929 12%, rgba(238,136,58,0.20) 100%) !important"
+    },
+    ".monaco-workbench .part.editor .tabs-container > .tab .tab-border-bottom-container": {
+      "background-color": "#EE883A !important"
+    },
+    // ".monaco-workbench .part.editor .tabs-container > .tab:hover": {
+    //   "background-color": "#2a2d2e"
+    // },
+    // ".monaco-workbench .part.editor .tabs-container > .tab .tab-label": {
+    //   "height": "25px !important",
+    //   "line-height": "25px !important",
+    //   "items-align": "center",
+    //   "font-weight": "300"
+    // },
+    // ".monaco-workbench .part.editor .tabs-container > .tab .label-name": {
+    //   "height": "25px !important",
+    //   "line-height": "25px !important",
+    //   "items-align": "center",
+    //   "font-size": "13px !important",
+    //   "font-weight": "300"
+    // },
+    ".monaco-workbench .part.editor .tabs-container > .tab .tab-close": {
+      "opacity": "0.0"
+    },
+    // ".monaco-workbench .part.editor .editor-actions": {
+    //   "height": "25px !important",
+    //   "line-height": "25px !important",
+    //   "opacity": "0.0"
+    // },
+    ".monaco-workbench .part.editor .tabs:hover .editor-actions": {
+      "opacity": "100.0"
+    },
+    // ".monaco-workbench .composite.title": {
+    //   "display": "none !important"
+    // },
+    // ".monaco-workbench .composite.has-composite-bar.header-or-footer.footer": {
+    //   "display": "none !important"
+    // },
+    // ".monaco-workbench .part.sidebar.left.pane-composite-part": {
+    //   "height": "100% !important",
+    //   "flex-grow": "1 !important",
+    // },
+    // ".monaco-workbench .part.sidebar.left.pane-composite-part .content": {
+    //   "height": "100% !important",
+    //   "flex-grow": "1 !important",
+    // },
+    // ".monaco-workbench .part.activitybar": {
+    //   "display": "none !important"
+    // }
+  },
+  "editor.fontSize": 14,
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "github.copilot.nextEditSuggestions.enabled": false,
+  "explorer.confirmDelete": false,
+  "editor.minimap.size": "fill"
 }
